@@ -12,7 +12,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    axios.post("http://localhost:8082/contact",{name,email,message})
+    axios.post("http://localhost:8082/contact/contact",{name,email,message})
     .then(result =>{
       alert(`📨 Thank you ${name}, we’ll get back to you soon!`);
      setName("");

@@ -34,7 +34,7 @@ const BookingPage = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    axios.post("http://localhost:8082/book", formData)
+    axios.post("http://localhost:8082/booking/book", formData)
       .then(result => {
 
         alert(`✅ Thank you ${formData.name}, your booking for a ${formData.carType} ${formData.carName} (${formData.carModel}) is confirmed!`);

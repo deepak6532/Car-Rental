@@ -11,7 +11,7 @@ const CarPage = ()=>{
 
   useEffect(()=>{
 
-  axios.get("http://localhost:8082/getcar")
+  axios.get("http://localhost:8082/cars/getcar")
   .then((res)=>
     setCar(res.data))
   .catch((err) => console.error('Error fetching cars:', err));
