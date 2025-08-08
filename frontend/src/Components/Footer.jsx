@@ -41,7 +41,7 @@ const Footer = () => {
                         <br />
                         <div className='flex items-center gap-3 '>
                             <FaLocationArrow />
-                            <p>Noida Uttar PRadesh</p>
+                            <p>Mansarovar Jaipur Rajasthan</p>
 
                         </div>
                         <div className='flex items-center gap-3 '>

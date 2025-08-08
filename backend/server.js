@@ -10,7 +10,7 @@ env.config()
 const app = express()
 const port = 8082
 
-const mongourl = "mongodb://localhost:27017/CarRental"
+const mongourl = "mongodb+srv://deepak:1234@cluster0.4xnptxf.mongodb.net/"
 mongoose.connect(mongourl)
 
 app.use(express.json())
